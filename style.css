@@ -1,0 +1,89 @@
+body{
+  text-align:center;
+  font-size:30px;
+  font-family:cursive;
+  background-color:#074dff;
+}
+img{
+  position:absolute;
+left:450px;
+top:10px;
+}
+
+h1{
+  position:absolute;
+  text-decoration:underline;
+  z-index:1;
+  left:575px;
+  color:rgb(255, 255, 255);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color:rgb(255,0,0);
+  border: none;
+  color:black;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  top:200px;
+  left:550px;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button:hover {background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.bezoeker {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(255,0,0);
+  border: none;
+  color:black;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  top:300px;
+  left:550px;
+  
+}
+
+.bezoeker span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bezoeker:hover {background-color: #3e8e41
+}
+
+.bezoeker:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
